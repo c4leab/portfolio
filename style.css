@@ -1,0 +1,140 @@
+
+body{
+    margin: 10;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    background-color: #ffffff;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+
+
+
+
+header{
+   
+}
+
+#nav {
+    display: block;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: #494949;
+    list-style-type: none;
+}
+.nav__item{
+    float: left;
+    color: #f2f2f2;
+    text-align: justify;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    list-style-type: none;
+    align-items: justify;
+
+}
+
+li a { text-decoration: none; color:#000; }
+ li a:visited { text-decoration: none; color:#000; }
+ li a:hover { text-decoration: none; color:#000; }
+ li a:focus { text-decoration: none; color:#000; }
+ li a:hover, .navBtn:active { text-decoration: none; color:#000; }
+
+ .mainpic {
+    float: left;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ }
+
+ p {
+    padding: 0.5em 1em 0.5em 0.5em;
+    
+ }
+
+.portfolio {
+    display: grid;
+    margin-left: 5em;
+
+ }
+ .portfolio a {
+    text-decoration: none;
+ }
+ .portfolio a:visited { text-decoration: none; color:#000; }
+ .portfolio a:hover { text-decoration: none; color:#000; }
+ .portfolio a:focus { text-decoration: none; color:#000; }
+ .portfolio a:hover, .navBtn:active { text-decoration: none; color:#000; }
+
+ .portfolio_item{
+    display: flex;
+ }
+
+ footer{
+    overflow: hidden;
+    background-color: #ffffff;
+    list-style-type: none;
+}
+.social-list{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    list-style-type: none;
+
+}
+
+.section__title {
+
+    text-align: center;
+
+}
+
+.section__subtitle {
+    text-align: center;
+
+}
+
+.social-list-about {
+    position:absolute;
+    width:300px;
+    height:300px;
+    bottom:0px;
+    right:25%;
+    left:50%;
+    margin-top: 75em;
+    margin-left:-150px;
+    list-style-type: none;
+}
+.social-list-work {
+    position:absolute;
+    width:300px;
+    height:300px;
+    bottom:0px;
+    right:25%;
+    left:50%;
+    top: 75em;
+    margin-left:-150px;
+    list-style-type: none;
+}
+.social-img {
+    width: 3em;
+    height: 3em;
+}
